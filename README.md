@@ -39,6 +39,10 @@ Problems modeled in StructJuMP models can be solved in parallel using the [PIPS-
 ### Mixed-Integer Solvers
 [DSP](https://github.com/Argonne-National-Laboratory/DSP.git) can read models from StructJuMP via [DSPsolver.jl](https://github.com/Argonne-National-Laboratory/DSPsolver.jl.git). In particular, ``DSP`` can solver problems with integer variables in parallel.
 
+#### Progressive hedging (PH) 
+
+[ProgressiveHedging](https://github.com/NREL/ProgressiveHedging.jl) can solve multi-stage models build using StructJuMP using the Progressive Hedging algorithm.
+
 ### Stochastic Dual Dynamic Programming (SDDP)
 [StructDualDynProg](https://github.com/blegat/StructDualDynProg.jl) can run the SDDP algorithm on multi-stage models from StructJuMP.
 
